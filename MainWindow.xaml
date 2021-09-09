@@ -1,0 +1,15 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestForJob"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="TestForJob.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="291.535" Width="600.903">
+    <Grid Margin="0,0,30.6,0">
+        <Button x:Name="Create_btn" Click="Create_btn_Click" Content="Create" HorizontalAlignment="Left" Margin="78,120,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Open_btn" Click="Open_btn_Click" Content="Open" HorizontalAlignment="Left" Margin="448,120,0,0" VerticalAlignment="Top" Width="75" />
+
+    </Grid>
+</Window>
